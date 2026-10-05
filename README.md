@@ -1,8 +1,8 @@
-# 📖 Cybersecurity Grimoire
+# 📖 The Hacker's Grimoire
 
-> A modern grimoire gathering my cybersecurity notes, cheat sheets, and memos.
+> A grimoire gathering my cybersecurity notes, cheat sheets, and memos.
 
-Welcome to my **Cybersecurity Grimoire**! 🧙‍♂️🛡️  
+Welcome to my **Hacker's Grimoire**! 🧙‍♂️🛡️  
 This repository is my personal knowledge base. Here, I centralize my learning notes, cheat sheets, summaries, and resources used for training (HTB, CTFs, certifications, other...).
 
 It is made public in the hope that it might also be useful to other cybersecurity enthusiasts or students.
