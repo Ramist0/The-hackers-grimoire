@@ -1,34 +1,39 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="The Hacker's Grimoire" width="100%">
+</p>
+
 # 📖 The Hacker's Grimoire
 
-> A grimoire gathering my cybersecurity notes, cheat sheets, and memos.
+> My cybersecurity notes, cheat sheets and memos, bound into one book of spells.
 
-Welcome to my **Hacker's Grimoire**! 🧙‍♂️🛡️  
-This repository is my personal knowledge base. Here, I centralize my learning notes, cheat sheets, summaries, and resources used for training (HTB, CTFs, certifications, other...).
+Welcome to my grimoire! 🧙‍♂️
 
-It is made public in the hope that it might also be useful to other cybersecurity enthusiasts or students.
+This repo is my personal knowledge base. It's where I keep what I learn along the way: notes, summaries, cheat sheets and write-ups from HackTheBox, CTFs, certifications and whatever else I'm studying at the moment.
 
----
-
-## 📂 Table of Contents / Grimoire Structure
-
-*Note: Links will become active as the corresponding folders are created.*
-
-* **[01 - Web Security](./01-Web-Security/)**: Web vulnerabilities (OWASP Top 10, SQLi, XSS, SSRF), recon, Burp Suite...
-* **[02 - CTF](./02-CTF/)**: CTF reports, 404-CTF, HTB boxes & events...
-* **[03 - Certifications cheat-sheet](./03-Certs-cheat-sheet/)**: Cheat Sheet for eJPT...
+I made it public in case it helps other people getting into cybersecurity, whether you're a student or just curious.
 
 ---
 
-## ⚠️ Legal Disclaimer
+## 📂 What's inside
 
-All information, techniques, notes, and scripts found in this repository are provided **strictly for educational and research purposes**. 
+- **[01 - Web Security](01-Web-Security)**: web vulnerabilities (OWASP Top 10, SQLi, XSS, SSRF), recon, Burp Suite and more.
+- **[02 - CTF](02-CTF)**: write-ups from CTFs such as the 404 CTF, plus HTB boxes and events.
+- **[03 - Certifications cheat sheets](03-Certs-cheat-sheet)**: quick-reference notes for exams, starting with the eJPT.
 
-The goal is to learn how to secure systems by understanding how they can be attacked. **Never test these techniques on systems, networks, or applications you do not own or for which you do not have explicit permission (bug bounty scope, pentest agreement, etc.).** 
+New sections will show up as I go.
 
-I hold no responsibility for how the information contained in this repository is used. Stay ethical! 🤍
+---
+
+## ⚠️ Disclaimer
+
+Everything here (notes, techniques, scripts) is shared **for educational and research purposes only**.
+
+The whole point is to learn how to defend systems by understanding how they get attacked. **Never try these techniques on systems, networks or applications you don't own, or that you don't have explicit permission to test** (bug bounty scope, pentest agreement, etc.).
+
+I'm not responsible for what you do with this content. Stay ethical! 🤍
 
 ---
 
 ## 🤝 Contributing
 
-This repository is primarily a personal notebook that evolves at my own pace. However, if you spot a mistake, a typo, or want to suggest adding an interesting resource, feel free to open an **Issue** or submit a **Pull Request**!
+This is first and foremost my own notebook, so it moves at my pace. That said, if you spot a mistake or a typo, or you know a great resource that belongs here, feel free to open an **Issue** or a **Pull Request**. I'd be glad to hear from you.
