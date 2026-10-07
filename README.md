@@ -18,7 +18,7 @@ I made it public in case it helps other people getting into cybersecurity, wheth
 
 - **[01 - Web Security](01-Web-Security)**: web vulnerabilities (OWASP Top 10, SQLi, XSS, SSRF), recon, Burp Suite and more.
 - **[02 - CTF](02-CTF)**: write-ups from CTFs such as the 404 CTF, plus HTB boxes and events.
-- **[03 - Certifications cheat sheets](03-Certs-cheat-sheet)**: quick-reference notes for exams, starting with the eJPT.
+- **[03 - Certifications cheat sheets](03-Certs-cheat-sheet)**: quick-reference notes for exams, eJPT, CWES, and other.
 
 New sections will show up as I go.
 
