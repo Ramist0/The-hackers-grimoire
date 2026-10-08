@@ -33,7 +33,6 @@ Below are some useful commands that can aid in various tasks related to web fuzz
 | sudo sh -c 'echo "SERVER_IP academy.htb" >> /etc/hosts'  | Add a DNS entry for a specific IP address to the /etc/hosts file. This helps resolve domain names locally. |
 |  for i in $(seq 1 1000); do echo $i >> ids.txt; done | Create a sequence wordlist from 1 to 1000. Useful for brute-forcing numerical IDs or similar patterns. |
 | curl http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'id=key' -H 'Content-Type: application/x-www-form-urlencoded'  | Use curl to send a POST request with specific data and headers, simulating form submissions or API calls. |
-|
 
 ## FFUF
 
