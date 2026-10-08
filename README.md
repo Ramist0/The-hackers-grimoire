@@ -36,4 +36,6 @@ I'm not responsible for what you do with this content. Stay ethical! 🤍
 
 ## 🤝 Contributing
 
+Please read this document : [CONTRIBUTING.md](./CONTRIBUTING.md)
+
 This is first and foremost my own notebook, so it moves at my pace. That said, if you spot a mistake or a typo, or you know a great resource that belongs here, feel free to open an **Issue** or a **Pull Request**. I'd be glad to hear from you.
