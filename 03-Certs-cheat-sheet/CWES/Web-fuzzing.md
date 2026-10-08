@@ -38,5 +38,29 @@ Below are some useful commands that can aid in various tasks related to web fuzz
 ## FFUF
 
 ```
+ffuf -u http://example.com/FUZZ -->	Basic fuzzing of a URL path.
+ffuf -u http://example.com/FUZZ -w wordlist.txt	 --> Fuzz with a specific wordlist.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -ic	--> Fuzz with a specific wordlist, automatically ignoring any comments in the wordlist.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -c	--> Colorize the output for better readability.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -mc 200	--> Filter results by status code (e.g., 200).
+ffuf -u http://example.com/FUZZ -w wordlist.txt -mr "Welcome" --> Filter results by matching a regex pattern.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -e .php,.html --> Add extensions to each wordlist entry.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -t 50 --> Set the number of threads (e.g., 50) for faster fuzzing.
+ffuf -u http://example.com/FUZZ -w wordlist.txt -x http://127.0.0.1:8080 --> Use a proxy for requests.
+
+real exemple : 
 ffuf -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt -ic -u http://154.57.164.65:42946/recursive_fuzz/FUZZ -e .html -recursion -recursion-depth 2 -rate 500
+```
+
+## Gobuster
+
+```
+gobuster dir -u http://example.com -w wordlist.txt	--> Directory fuzzing using a wordlist.
+gobuster dir -u http://example.com -w wordlist.txt -x .php,.html	--> Fuzz with specific extensions.
+gobuster dir -u http://example.com -w wordlist.txt -s 200	--> Filter results by status code (e.g., 200).
+gobuster dir -u http://example.com -w wordlist.txt -t 50	--> Set the number of concurrent threads (e.g., 50).
+gobuster dir -u http://example.com -w wordlist.txt -o results.txt	--> Output results to a file.
+gobuster dns -d example.com -w subdomains.txt	--> Fuzz DNS subdomains using a wordlist.
+gobuster dns -d example.com -w subdomains.txt -i	--> Show IP addresses of discovered subdomains.
+gobuster dns -d example.com -w subdomains.txt -z	--> Silent mode; suppress output except for results.
 ```
